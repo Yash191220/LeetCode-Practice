@@ -8,7 +8,9 @@ class Solution {
             if(map.containsKey(need)){
                 return new int[] {map.get(need),i};
             }
+
             map.put(nums[i],i);
+
         }
         return new int[]{};
     }
